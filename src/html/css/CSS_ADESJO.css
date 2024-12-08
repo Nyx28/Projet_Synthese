@@ -36,6 +36,10 @@
     padding: 15px 0px;
 }
 #section-head{
+    img{
+        max-height: 150px;
+        width: auto;
+    }
     background-color: #3d5a80;
     .row{
         display: flex;
@@ -147,4 +151,27 @@
 
 
 }
-
+#section-text{
+    .donation-info {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 8px;
+        background: #f9f9f9;
+    }
+    .donation-info p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .donation-info .label {
+        font-weight: bold;
+        color: #333;
+    }
+    .donation-info .value {
+        color: #555;
+    }
+    .note {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #666;
+    }
+}
