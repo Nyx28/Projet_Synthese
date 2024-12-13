@@ -3,106 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <title>Voluntarios</title>
-  <link rel="stylesheet" href="../../Dockerfile_ADESJO/src/html/css/CSS_ADESJO.css">
+  <link rel="stylesheet" href="../css/CSS_ADESJO.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
-<body>
-<div class="row">
-  <div class="column left top-0" >
-    <a href="Portal.html" style="padding: 0">
-      <img src="../Img/ADESJO_LOGO.jpeg" alt="Logo de ADESJO" width="180px" height="135px">
-    </a>
-  </div>
-  <div class="column middle">
-    <h1>ADESJO</h1>
-    <div>Asociación para el Desarrollo de San José de Ocoa</div>
-  </div>
-  <div class="column right center subnav">
-    <button class="subnavbtn contour">Idioma</button>
-    <div class="subnav-content">
-      <a href="/Voluntarios.html" class="contour">Español</a>
-      <a href="../../Dockerfile_ADESJO/src/html/en/Volunteers.html" class="contour">English</a>
-      <a href="../fr/Volontaires.html" class="contour">Français</a>
+<header>
+  <div class="header-fixable">
+    <div id="section-head" class="section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <a href="Portal.html" style="padding: 0">
+              <img src="../../Img/ADESJO_LOGO-modified.png" alt="ADESJO Logo" width="50%">
+            </a>
+          </div>
+          <div class="col-12 col-sm-6">
+            <h1>ADESJO</h1>
+            <h2>Asociación para el Desarrollo de San José de Ocoa</h2>
+          </div>
+          <div class="col-12 col-sm-3 subnav">
+            <div class="subnav-btn"> <h3>Idioma</h3></div>
+            <div class="subnav-content">
+              <a href="../es/Voluntarios.html" class="contour">Español</a>
+              <a href="../en/Volunteers.html" class="contour">English</a>
+              <a href="../fr/Volontaires.html" class="contour">Français</a>
+            </div>
+            <div id="mobilenav">
+              <button class="menu-button"></button>
+              <div class="sidebar-menu">
+                <div class="subnav-content-mobile">
+                  <a href="Historia.html">Nuestra Historia </a>
+                  <a href="Equipo.html">Nuestro Equipo</a>
+                  <a href="Departementos.html">Departamentos</a>
+                  <a href="Voluntarios.html">Voluntarios</a>
+                  <a href="Proyectos.html">Proyectos</a>
+                  <a href="Donar.html">Donar</a>
+                  <br>
+                  <a href="../es/Voluntarios.html" class="contour">Español</a>
+                  <a href="../en/Volunteers.html" class="contour">English</a>
+                  <a href="../fr/Volontaires.html" class="contour">Français</a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="section-main-nav" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="main-nav">
+              <a href="Historia.html">Nuestra Historia </a>
+              <a href="Equipo.html">Nuestro Equipo</a>
+              <a href="Departementos.html">Departamentos</a>
+              <a href="Voluntarios.html">Voluntarios</a>
+              <a href="Proyectos.html">Proyectos</a>
+              <a href="Donar.html">Donar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
-</div>
-<hr>
-<div class="justifier">
-  <a href="ria.html" class="navigation">Nuestra Historia </a>
-  <pre> </pre>
-  <a href="o.html" class="navigation">Nuestro Equipo</a>
-  <pre> </pre>
-  <a href="tementos.html" class="navigation">Departamentos</a>
-  <pre> </pre>
-  <a href="/Voluntarios.html" class="navigation currentPage">Voluntarios</a>
-  <pre> </pre>
-  <a href="ctos.html" class="navigation">Proyectos</a>
-  <pre> </pre>
-  <a href=".html" class="navigation">Donar</a>
-</div>
+</header>
+<body>
 <br><br>
-<h2>La Ayuda de Voluntarios Internacionales</h2>
-<br><br>
-<div class="container">
-  <h3>¿Qué tipo de ayuda traen?</h3>
-  <p>
-    La ayuda de los voluntarios internacionales es crucial para el bienestar de la organización.
-    Con su ayuda financiera y su trabajo manual, ADESJO puede aumentar el número de proyectos realizados en
-    las comunidades. Su implicación a lo largo de los años con nuestra asociación los ha convertido en parte integral de nosotros,
-    y nuestras relaciones con los diferentes grupos de voluntarios se fortalecen año tras año.
-    También hay una gran parte de los grupos que nos ayudan y que vienen cada año alrededor de la misma
-    fecha. Estos veteranos ahora están incluidos en la planificación anual realizada por la administración.
-  </p>
+<section id="section-text">
+  <div class="container volunteers-page">
+    <h2>La Ayuda de Voluntarios Internacionales</h2>
+    <h3>¿Qué tipo de ayuda traen?</h3>
+    <p>
+      La ayuda de los voluntarios internacionales es crucial para el bienestar de la organización.
+      Con su ayuda financiera y su trabajo manual, ADESJO puede aumentar el número de proyectos realizados en
+      las comunidades. Su implicación a lo largo de los años con nuestra asociación los ha convertido en parte integral de nosotros,
+      y nuestras relaciones con los diferentes grupos de voluntarios se fortalecen año tras año.
+      También hay una gran parte de los grupos que nos ayudan y que vienen cada año alrededor de la misma
+      fecha. Estos veteranos ahora están incluidos en la planificación anual realizada por la administración.
+    </p>
 
-  <h3>Proyectos de Acueductos</h3>
-  <p>Este tipo de proyecto consiste en llevar agua a una comunidad como objetivo final. Esto se logra excavando zanjas desde un embalse (y a veces construyéndolo también) hacia el pueblo o los campos.
-    Esto implica romper el suelo con picos y moverlo con palas hasta alcanzar una profundidad adecuada para instalar las tuberías de agua. Dependiendo de la longitud de las zanjas necesarias, estos proyectos no siempre se terminan cuando el grupo se va; pueden ser finalizados otro año por el mismo grupo, por otro grupo de voluntarios o por la brigada local.</p>
+    <h3>Proyectos de Acueductos</h3>
+    <p>Este tipo de proyecto consiste en llevar agua a una comunidad como objetivo final. Esto se logra excavando zanjas desde un embalse (y a veces construyéndolo también) hacia el pueblo o los campos.
+      Esto implica romper el suelo con picos y moverlo con palas hasta alcanzar una profundidad adecuada para instalar las tuberías de agua. Dependiendo de la longitud de las zanjas necesarias, estos proyectos no siempre se terminan cuando el grupo se va; pueden ser finalizados otro año por el mismo grupo, por otro grupo de voluntarios o por la brigada local.</p>
 
-  <h3>Construcción de Viviendas</h3>
-  <p> Muchos grupos vienen a trabajar con nosotros para construir casas para los más necesitados. A menudo son alojados en una escuela o centro comunitario en la comunidad donde van a ayudar. La ayuda financiera se destina a comprar los diferentes materiales para la construcción y comprar muebles para la familia. Estos proyectos se realizan enviando ingenieros y una brigada de locales para trabajar con el grupo de voluntarios. Este tipo de proyecto generalmente implica muchas tareas diferentes, como cavar el suelo con palas y picos para instalar las cimentaciones, hacer cemento, levantar paredes y, si están aquí el tiempo suficiente, realizar los acabados como pintura y verter el piso. En el caso de que la casa no esté terminada cuando el grupo se va, la brigada la terminará en las semanas siguientes.
+    <h3>Construcción de Viviendas</h3>
+    <p> Muchos grupos vienen a trabajar con nosotros para construir casas para los más necesitados. A menudo son alojados en una escuela o centro comunitario en la comunidad donde van a ayudar. La ayuda financiera se destina a comprar los diferentes materiales para la construcción y comprar muebles para la familia. Estos proyectos se realizan enviando ingenieros y una brigada de locales para trabajar con el grupo de voluntarios. Este tipo de proyecto generalmente implica muchas tareas diferentes, como cavar el suelo con palas y picos para instalar las cimentaciones, hacer cemento, levantar paredes y, si están aquí el tiempo suficiente, realizar los acabados como pintura y verter el piso. En el caso de que la casa no esté terminada cuando el grupo se va, la brigada la terminará en las semanas siguientes.
 
-  </p>
+    </p>
 
-  <h3>Proyecto de Recursos Naturales</h3>
-  <p>
-    Este tipo de proyecto incluye muchas tareas diferentes. Una de las más frecuentes es la reforestación, que es muy importante para reducir los deslizamientos de tierra y aumentar la retención de agua en el suelo. Otro proyecto es la construcción de invernaderos en la comunidad para mejorar la situación financiera de sus miembros.
-  </p>
+    <h3>Proyecto de Recursos Naturales</h3>
+    <p>
+      Este tipo de proyecto incluye muchas tareas diferentes. Una de las más frecuentes es la reforestación, que es muy importante para reducir los deslizamientos de tierra y aumentar la retención de agua en el suelo. Otro proyecto es la construcción de invernaderos en la comunidad para mejorar la situación financiera de sus miembros.
+    </p>
 
-  <h3>Proyectos de Salud</h3>
-  <p>
-    Este tipo de proyectos son un poco más especializados. Por ejemplo, algunos voluntarios que vienen cada año a ayudar son un grupo de dentistas de Estados Unidos. Cada día durante una semana, van a una comunidad diferente para proporcionar atención dental gratuita a todos los habitantes de los alrededores. Este tipo de proyecto puede ser variado, pero debe ser realizado por especialistas en su campo respectivo y requiere una organización y preparación adicionales.
+    <h3>Proyectos de Salud</h3>
+    <p>
+      Este tipo de proyectos son un poco más especializados. Por ejemplo, algunos voluntarios que vienen cada año a ayudar son un grupo de dentistas de Estados Unidos. Cada día durante una semana, van a una comunidad diferente para proporcionar atención dental gratuita a todos los habitantes de los alrededores. Este tipo de proyecto puede ser variado, pero debe ser realizado por especialistas en su campo respectivo y requiere una organización y preparación adicionales.
 
-  </p>
+    </p>
 
-  <h3>Proyectos de Intercambio Intercultural Para Jóvenes</h3>
-  <p>
-    Este es un nuevo tipo de proyecto. El objetivo de estos proyectos es, por un lado, fortalecer las relaciones entre ADESJO y los futuros líderes de grupos de voluntarios, y por otro lado, hacer que los jóvenes de aquí experimenten la cultura y el idioma de otro país. De 3 a 5 personas de entre 18 y 25 años son enviadas para vivir con diferentes familias miembros de ADESJO, donde pueden experimentar la vida cotidiana en una familia dominicana, trabajar durante la semana y mejorar su dominio del español durante el proyecto. El tipo de trabajo varía mucho, a veces se les envía a vivir una semana en una comunidad para ayudar en proyectos como acueductos o para ayudar a otros grupos de voluntarios, y otras veces pueden ayudar en la oficina o en proyectos de menor envergadura. Por otro lado, el grupo de aquí que va a otro país seguirá el calendario del grupo que los recibe. Este intercambio no es sincrónico; para referencia, el primer proyecto de este tipo fue con un grupo de canadienses que vinieron en el verano de 2024, mientras que el grupo de dominicanos irá en el verano de 2025.
+    <h3>Proyectos de Intercambio Intercultural Para Jóvenes</h3>
+    <p>
+      Este es un nuevo tipo de proyecto. El objetivo de estos proyectos es, por un lado, fortalecer las relaciones entre ADESJO y los futuros líderes de grupos de voluntarios, y por otro lado, hacer que los jóvenes de aquí experimenten la cultura y el idioma de otro país. De 3 a 5 personas de entre 18 y 25 años son enviadas para vivir con diferentes familias miembros de ADESJO, donde pueden experimentar la vida cotidiana en una familia dominicana, trabajar durante la semana y mejorar su dominio del español durante el proyecto. El tipo de trabajo varía mucho, a veces se les envía a vivir una semana en una comunidad para ayudar en proyectos como acueductos o para ayudar a otros grupos de voluntarios, y otras veces pueden ayudar en la oficina o en proyectos de menor envergadura. Por otro lado, el grupo de aquí que va a otro país seguirá el calendario del grupo que los recibe. Este intercambio no es sincrónico; para referencia, el primer proyecto de este tipo fue con un grupo de canadienses que vinieron en el verano de 2024, mientras que el grupo de dominicanos irá en el verano de 2025.
 
-  </p>
+    </p>
 
-  <h3>¿Cómo puedes ayudar?</h3>
-  <p>
+    <h3>¿Cómo puedes ayudar?</h3>
+    <p>
 
-    Hay muchas formas de ayudar. Las dos más comunes son venir aquí con un grupo para ayudar en una comunidad, o enviar una donación para financiar otros proyectos. Para obtener más información sobre cómo ayudar a nuestros empobrecidos, envíanos un correo electrónico a
-    <a href="mailto:adesjo@codetel.net.do">adesjo@codetel.net.do</a>
+      Hay muchas formas de ayudar. Las dos más comunes son venir aquí con un grupo para ayudar en una comunidad, o enviar una donación para financiar otros proyectos. Para obtener más información sobre cómo ayudar a nuestros empobrecidos, envíanos un correo electrónico a
+      <a href="mailto:adesjo@codetel.net.do">adesjo@codetel.net.do</a>
 
-  </p>
-
-
-</div>
-
+    </p>
+  </div>
+</section>
+<script src="../js/main.js"></script>
 </body>
 <footer>
-  <br> <hr>
-  <div class="row justifier contour" style="background-color: #237318">
-    <div class="column" style="padding-top: 0">
-      <p class="centrer" style="padding-right: 15px">Tel. :<br> 809-558-2346 <br>  809-558-3059</p>
+  <div id="section-footer" class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-lg-3">
+          <a href="../../../index.html" style="padding: 0">
+            <img src="../../Img/ADESJO_LOGO-modified.png" alt="ADESJO Logo" width="50%">
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="footer-nav">
+            <a href="Historia.html">Nuestra Historia </a>
+            <a href="Equipo.html">Nuestro Equipo</a>
+            <a href="Departementos.html">Departamentos</a>
+            <a href="Voluntarios.html">Voluntarios</a>
+            <a href="Proyectos.html">Proyectos</a>
+            <a href="Donar.html">Donar</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2 footer-contact">
+          Tel. : <br>
+          809-558-2346 <br>
+          809-558-3059 <br>
+          <a href="mailto:adesjo@claro.net.do">Email</a>
+        </div>
+        <div class="col-xs-12 col-lg-4 footer-address">
+          Dirección : <br>
+          Avenida Canadá 99, Esq. Sister María Asuncíon, <br> Provincia de San José de Ocoa, República Dominicana
+        </div>
+
+      </div>
     </div>
-    <div class="column" style="padding-top: 15px">
-      <p>Dirección : <br> Avenida Canadá 99, Esq. Sister María Asuncíon, Provincia de San José de Ocoa, República Dominicana</p>
-    </div>
-    <div class="column" style="padding-top: 15px">
-      <p>Email : <a class="contour" href="mailto:adesjo@claro.net.do">adesjo@claro.net.do</a></p>
-    </div>
+  </div>
   </div>
 </footer>
 </html>
