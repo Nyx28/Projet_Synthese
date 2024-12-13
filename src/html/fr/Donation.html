@@ -1,103 +1,148 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Donation</title>
-    <link rel="stylesheet" href="../../Dockerfile_ADESJO/src/html/css/CSS_ADESJO.css">
-    <style>
 
-        .donation-info {
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 8px;
-            background: #f9f9f9;
-        }
-        .donation-info p {
-            font-size: 16px;
-            margin: 10px 0;
-        }
-        .donation-info .label {
-            font-weight: bold;
-            color: #333;
-        }
-        .donation-info .value {
-            color: #555;
-        }
-        .note {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #666;
-        }
-    </style>
+<head>
+  <meta charset="UTF-8">
+  <title>Donation</title>
+  <link rel="stylesheet" href="../css/CSS_ADESJO.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
-<body>
-<div class="row">
-    <div class="column left top-0">
-        <a href="Menu.html" style="padding: 0">
-            <img src="../Img/ADESJO_LOGO.jpeg" alt="Logo de ADESJO" width="180px" height="135px">
-        </a>
-    </div>
-    <div class="column middle">
-        <h1> ADESJO</h1>
-        <div>Association pour le Développement de San José de Ocoa</div>
-    </div>
-    <div class="column right center subnav">
-        <button class="subnavbtn contour">Langue</button>
-        <div class="subnav-content">
-            <a href="../es/Donar.html" class="contour">Español</a>
-            <a href="../../Dockerfile_ADESJO/src/html/en/Donate.html" class="contour">English</a>
-            <a href="../fr/Donation.html" class="contour">Français</a>
+<header>
+  <div class="header-fixable">
+    <div id="section-head" class="section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <a href="Menu.html" style="padding: 0">
+              <img src="../../Img/ADESJO_LOGO-modified.png" alt="ADESJO Logo" width="50%">
+            </a>
+          </div>
+          <div class="col-12 col-sm-6">
+            <h1>ADESJO</h1>
+            <h2>Asociación para el Desarrollo de San José de Ocoa</h2>
+          </div>
+          <div class="col-12 col-sm-3 subnav">
+            <div class="subnav-btn">
+              <h3>Langue</h3>
+            </div>
+            <div class="subnav-content">
+              <a href="../es/Donar.html" class="contour">Español</a>
+              <a href="../en/Donate.html" class="contour">English</a>
+              <a href="../fr/Donation.html" class="contour">Français</a>
+            </div>
+            <div id="mobilenav">
+              <button class="menu-button"></button>
+              <div class="sidebar-menu">
+                <div class="subnav-content-mobile">
+                  <a href="Histoire.html">Notre Histoire</a>
+                  <a href="Equipe.html">Notre Équipe</a>
+                  <a href="Departements.html">Départements</a>
+                  <a href="Volontaires.html">Bénévoles</a>
+                  <a href="Projets.html">Projets</a>
+                  <a href="Donation.html">Faire un Don</a>
+                  <br>
+                  <a href="../es/Donar.html" class="contour">Español</a>
+                  <a href="../en/Donate.html" class="contour">English</a>
+                  <a href="../fr/Donation.html" class="contour">Français</a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<hr>
-<div class="justifier">
-    <a href="../fr/Histoire.html" class="navigation">Notre Histoire </a>
-    <pre> </pre>
-    <a href="../fr/Equipe.html" class="navigation">Notre Équipe</a>
-    <pre> </pre>
-    <a href="../fr/Departements.html" class="navigation">Départements</a>
-    <pre> </pre>
-    <a href="../fr/Volontaires.html" class="navigation">Bénévoles</a>
-    <pre> </pre>
-    <a href="../fr/Projets.html" class="navigation">Projets</a>
-    <pre> </pre>
-    <a href="../fr/Donation.html" class="navigation currentPage">Faire un Don</a>
-</div>
-<br>
-<h2>Informations sur les Dons</h2>
-<div class="container">
-    <h3>Banco Popular Dominicano</h3>
-    <div class="donation-info">
+    <div id="section-main-nav" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="main-nav">
+              <a href="Histoire.html">Notre Histoire</a>
+              <a href="Equipe.html">Notre Équipe</a>
+              <a href="Departements.html">Départements</a>
+              <a href="Volontaires.html">Bénévoles</a>
+              <a href="Projets.html">Projets</a>
+              <a href="Donation.html">Faire un Don</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</header>
+
+<body>
+  <br><br>
+  <section id="section-text">
+    <div class="container departments-page">
+      <h2>Informations sur les Dons</h2>
+      <h3>Banco Popular Dominicano</h3>
+      <div class="donation-info">
         <p><span class="label">RNC:</span> <span class="value">415-000531</span></p>
         <p><span class="label">Numéro de compte:</span> <span class="value">008-00246-0</span></p>
         <p><span class="label">Numéro SWIFT:</span> <span class="value">BPDODOSX</span></p>
         <p><span class="label">IBAN:</span> <span class="value">DO23BPD000000000000008002460</span></p>
-    </div>
-    <h3>Banque de ré    serve</h3>
-    <div class="donation-info">
+      </div>
+      <h3>Banque de réserve</h3>
+      <div class="donation-info">
         <p><span class="label">RNC:</span> <span class="value">415-000531</span></p>
         <p><span class="label">Numéro de compte :</span> <span class="value">131-0006452</span></p>
         <p><span class="label">Numéro SWIFT:</span> <span class="value">BRRDDOSD</span></p>
         <p><span class="label">Compte Standard:</span> <span class="value">DO26BRRD00000000001310006452</span></p>
+      </div>
+      <div class="note">
+        <p>Veuillez utiliser les informations ci-dessus pour effectuer votre don. Merci pour votre soutien généreux !
+        </p>
+      </div>
     </div>
-    <div class="note">
-        <p>Veuillez utiliser les informations ci-dessus pour effectuer votre don. Merci pour votre soutien généreux !</p>
-    </div>
-</div>
+  </section>
+  <script src="../js/main.js"></script>
 </body>
 <footer>
-    <br> <hr>
-    <div class="row justifier contour" style="background-color: #237318">
-        <div class="column" style="padding-top: 0">
-            <p class="centrer" style="padding-right: 15px">Tel.:<br> 809-558-2346 <br> 809-558-3059</p>
+  <div id="section-footer" class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-lg-3">
+          <a href="Menu.html" style="padding: 0">
+            <img src="../../Img/ADESJO_LOGO-modified.png" alt="ADESJO Logo" width="50%">
+          </a>
         </div>
-        <div class="column" style="padding-top: 15px">
-            <p>Adresse: <br> Avenida Canadá 99, Esq. Sœur María Asunción, Province de San José de Ocoa, République Dominicaine</p>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="footer-nav">
+            <a href="Histoire.html">Notre Histoire</a>
+            <a href="Equipe.html">Notre Équipe</a>
+            <a href="Departements.html">Départements</a>
+            <a href="Volontaires.html">Bénévoles</a>
+            <a href="Projets.html">Projets</a>
+            <a href="Donation.html">Faire un Don</a>
+          </div>
         </div>
-        <div class="column" style="padding-top: 15px">
-            <p>Email : <a class="contour" href="mailto:adesjo@claro.net.do">adesjo@claro.net.do</a></p>
+        <div class="col-xs-12 col-md-6 col-lg-2 footer-contact">
+          Tel. : <br>
+          809-558-2346 <br>
+          809-558-3059 <br>
+          <a href="mailto:adesjo@claro.net.do">Email</a>
         </div>
+        <div class="col-xs-12 col-lg-4 footer-address">
+          Addresse : <br>
+          Avenida Canadá 99, Esq. Sister María Asuncíon, <br> Provincia de San José de Ocoa, República Dominicana
+        </div>
+
+      </div>
     </div>
+  </div>
+  </div>
 </footer>
+
 </html>

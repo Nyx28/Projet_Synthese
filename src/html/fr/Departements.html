@@ -1,79 +1,181 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <title>Départements</title>
-  <link rel="stylesheet" href="../../Dockerfile_ADESJO/src/html/css/CSS_ADESJO.css">
+  <link rel="stylesheet" href="../css/CSS_ADESJO.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
-<body>
-<div class="row">
-  <div class="column left top-0" >
-    <a href="../fr/Menu.html" style="padding: 0">
-      <img src="../Img/ADESJO_LOGO.jpeg" alt="Logo ADESJO" width="180px" height="135px">
-    </a>
-  </div>
-  <div class="column middle">
-    <h1> ADESJO</h1>
-    <div>Association pour le Développement de San José de Ocoa</div>
-  </div>
-  <div class="column right center subnav">
-    <button class="subnavbtn contour">Langue</button>
-    <div class="subnav-content">
-      <a href="../es/Departementos.html" class="contour">Español</a>
-      <a href="../en/Departments.html" class="contour">English</a>
-      <a href="../fr/Departements.html" class="contour">Français</a>
+<header>
+  <div class="header-fixable">
+    <div id="section-head" class="section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <a href="Menu.html" style="padding: 0">
+              <img src="../../Img/ADESJO_LOGO-modified.png" alt="ADESJO Logo" width="50%">
+            </a>
+          </div>
+          <div class="col-12 col-sm-6">
+            <h1>ADESJO</h1>
+            <h2>Asociación para el Desarrollo de San José de Ocoa</h2>
+          </div>
+          <div class="col-12 col-sm-3 subnav">
+            <div class="subnav-btn">
+              <h3>Langue</h3>
+            </div>
+            <div class="subnav-content">
+              <a href="../es/Departementos.html" class="contour">Español</a>
+              <a href="../en/Departments.html" class="contour">English</a>
+              <a href="../fr/Departements.html" class="contour">Français</a>
+            </div>
+            <div id="mobilenav">
+              <button class="menu-button"></button>
+              <div class="sidebar-menu">
+                <div class="subnav-content-mobile">
+                  <a href="Histoire.html">Notre Histoire</a>
+                  <a href="Equipe.html">Notre Équipe</a>
+                  <a href="Departements.html">Départements</a>
+                  <a href="Volontaires.html">Bénévoles</a>
+                  <a href="Projets.html">Projets</a>
+                  <a href="Donation.html">Faire un Don</a>
+                  <br>
+                  <a href="../es/Departementos.html" class="contour">Español</a>
+                  <a href="../en/Departments.html" class="contour">English</a>
+                  <a href="../fr/Departements.html" class="contour">Français</a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="section-main-nav" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="main-nav">
+              <a href="Histoire.html">Notre Histoire</a>
+              <a href="Equipe.html">Notre Équipe</a>
+              <a href="Departements.html">Départements</a>
+              <a href="Volontaires.html">Bénévoles</a>
+              <a href="Projets.html">Projets</a>
+              <a href="Donation.html">Faire un Don</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
-</div>
-<hr>
-<div class="justifier">
-  <a href="../fr/Histoire.html" class="navigation">Notre Histoire </a>
-  <pre> </pre>
-  <a href="../fr/Equipe.html" class="navigation">Notre Équipe</a>
-  <pre> </pre>
-  <a href="../fr/Departements.html" class="navigation currentPage">Départements</a>
-  <pre> </pre>
-  <a href="../fr/Volontaires.html" class="navigation">Bénévoles</a>
-  <pre> </pre>
-  <a href="../fr/Projets.html" class="navigation">Projets</a>
-  <pre> </pre>
-  <a href="../fr/Donation.html" class="navigation">Faire un Don</a>
-</div>
-<br><br>
-<h2>Les Différents Départements</h2>
-<br><br>
+</header>
 
-<div class="container">
-  <h3>Département d'Infrastructure</h3>
-  <p>ADESJO promeut le droit fondamental de chaque famille à vivre dans une infrastructure rurale avec accès aux services essentiels de base. Pour répondre à leurs besoins essentiels, ADESJO mène des projets de construction et de réparation de maisons, d'écoles rurales, de centres communautaires ruraux, de cliniques rurales, de latrines, d'aqueducs et de routes de comté. Des panneaux solaires et des installations hydroélectriques fournissent une énergie propre aux foyers et aux cliniques rurales. Des techniques de collecte de brouillard sont également utilisées pour fournir de l'eau potable. De plus, des centres de télévision et d'ordinateurs ruraux ont été établis.</p>
+<body>
+  <br><br>
+  <section id="section-text">
+    <div class="container departments-page">
+      <h2>Les Différents Départements</h2>
+      <h3>Département d'Infrastructure</h3>
+      <p>ADESJO promut le droit fondamental de chaque famille à vivre dans une infrastructure rurale avec accès aux
+        services essentiels de base. Pour répondre à leurs besoins essentiels, ADESJO mène des projets de construction
+        et de réparation de maisons, d'écoles rurales, de centres communautaires ruraux, de cliniques rurales, de
+        latrines, d'aqueducs et de routes de comté. Des panneaux solaires et des installations hydroélectriques
+        fournissent une énergie propre aux foyers et aux cliniques rurales. Des techniques de collecte de brouillard
+        sont également utilisées pour fournir de l'eau potable. De plus, des centres de télévision et d'ordinateurs
+        ruraux ont été établis.</p>
 
-  <h3>Département des Ressources Naturelles</h3>
-  <p>ADESJO traite des problèmes environnementaux graves affectant nos ressources naturelles renouvelables, la production agricole et les efforts d'élevage en mettant en œuvre des systèmes de production modernes et efficaces dans les buts suivants : l'irrigation des terres en installant des systèmes d'arrosage par aspersion, goutte à goutte, et mini et macro-arroseurs avec l'accord que les propriétaires terriens bénéficiaires doivent prêter jusqu'à 50% de leurs terres aux agriculteurs sans terre; des zones sont reboisées à des fins de protection et commerciales; du café est planté dans les zones supérieures et humides; des pépinières d'arbres fruitiers et forestiers sont établies pour répondre à nos besoins en différentes plantes. De plus, différentes activités sont menées pour la conservation des sols; des légumes sont produits en laboratoire de tissus et en mini-serres, principalement par des groupes de femmes; des réservoirs sont construits pour les efforts d'aquaculture; différents animaux (vaches, bœufs, cochons, chèvres, poules et canards) sont distribués; des silos métalliques sont distribués pour stocker les grains et les semences; des ruchers sont établis par des associations de femmes; et des arbres fruitiers sont plantés le long des versants en combinaison avec des légumes à cycle court et des systèmes d'irrigation.</p>
+      <h3>Département des Ressources Naturelles</h3>
+      <p>ADESJO traite des problèmes environnementaux graves affectant nos ressources naturelles renouvelables, la
+        production agricole et les efforts d'élevage en mettant en œuvre des systèmes de production modernes et
+        efficaces dans les buts suivants : l'irrigation des terres en installant des systèmes d'arrosage par aspersion,
+        goutte à goutte, et mini et macro-arroseurs avec l'accord que les propriétaires terriens bénéficiaires doivent
+        prêter jusqu'à 50% de leurs terres aux agriculteurs sans terre; des zones sont reboisées à des fins de
+        protection et commerciales; du café est planté dans les zones supérieures et humides; des pépinières d'arbres
+        fruitiers et forestiers sont établies pour répondre à nos besoins en différentes plantes. De plus, différentes
+        activités sont menées pour la conservation des sols; des légumes sont produits en laboratoire de tissus et en
+        mini-serres, principalement par des groupes de femmes; des réservoirs sont construits pour les efforts
+        d'aquaculture; différents animaux (vaches, bœufs, cochons, chèvres, poules et canards) sont distribués; des
+        silos métalliques sont distribués pour stocker les grains et les semences; des ruchers sont établis par des
+        associations de femmes; et des arbres fruitiers sont plantés le long des versants en combinaison avec des
+        légumes à cycle court et des systèmes d'irrigation.</p>
 
-  <h3>Département de l'Éducation</h3>
-  <p>ADESJO a organisé 84 conseils communautaires; une Division du Genre promeut la redéfinition des relations entre hommes et femmes, permettant à davantage de femmes de devenir des leaders communautaires; les conseils communautaires et les associations de femmes sont incorporés; ils sont tous deux impliqués dans la production agricole et animale, ainsi que dans les projets de mini-serres, ruchers et arbres fruitiers. Depuis 1994, les garçons et les filles des zones rurales apprennent l'environnement, les ressources naturelles, la santé, la nutrition, et l'éducation humaine et chrétienne à travers des camps d'été éducatifs organisés dans les communautés rurales. Pères et mères, ainsi que des facilitateurs et animateurs issus des mêmes communautés, participent en tant que personnel de soutien pour ces camps. Un programme d'alphabétisation des adultes bénéficie à des milliers de personnes dans les zones rurales. De plus, le département offre d'autres opportunités éducatives et informe le public local, national et international sur les activités menées par ADESJO et ses communautés.</p>
+      <h3>Département de l'Éducation</h3>
+      <p>ADESJO a organisé 84 conseils communautaires; une Division du Genre promeut la redéfinition des relations entre
+        hommes et femmes, permettant à davantage de femmes de devenir des leaders communautaires; les conseils
+        communautaires et les associations de femmes sont incorporés; ils sont tous deux impliqués dans la production
+        agricole et animale, ainsi que dans les projets de mini-serres, ruchers et arbres fruitiers. Depuis 1994, les
+        garçons et les filles des zones rurales apprennent l'environnement, les ressources naturelles, la santé, la
+        nutrition, et l'éducation humaine et chrétienne à travers des camps d'été éducatifs organisés dans les
+        communautés rurales. Pères et mères, ainsi que des facilitateurs et animateurs issus des mêmes communautés,
+        participent en tant que personnel de soutien pour ces camps. Un programme d'alphabétisation des adultes
+        bénéficie à des milliers de personnes dans les zones rurales. De plus, le département offre d'autres
+        opportunités éducatives et informe le public local, national et international sur les activités menées par
+        ADESJO et ses communautés.</p>
 
-  <h3>Département de la Santé</h3>
-  <p>ADESJO aide à améliorer la santé de la population en offrant un meilleur accès aux services de santé et en améliorant leur qualité, en reconnaissant pleinement que la santé est une partie intégrante du développement. Ce département coordonne le travail avec les communautés rurales et le Ministère de la Santé et de l'Assistance Sociale pour l'exécution d'un programme de soins de santé primaire et préventive, ainsi que la distribution de médicaments. Le département soutient également les cliniques rurales et aide à équiper et réparer les infrastructures de soins de santé dans la province.</p>
+      <h3>Département de la Santé</h3>
+      <p>ADESJO aide à améliorer la santé de la population en offrant un meilleur accès aux services de santé et en
+        améliorant leur qualité, en reconnaissant pleinement que la santé est une partie intégrante du développement. Ce
+        département coordonne le travail avec les communautés rurales et le Ministère de la Santé et de l'Assistance
+        Sociale pour l'exécution d'un programme de soins de santé primaire et préventive, ainsi que la distribution de
+        médicaments. Le département soutient également les cliniques rurales et aide à équiper et réparer les
+        infrastructures de soins de santé dans la province.</p>
 
-  <h3>Département des Services Généraux</h3>
-  <p>ADESJO améliore l'accès aux communautés les plus éloignées de la province et des zones environnantes en utilisant des véhicules lourds et d'autres machines. Ce département soutient toutes les zones de l'institution et fournit des services à tous les Conseils Communautaires conformément aux plans établis.</p>
+      <h3>Département des Services Généraux</h3>
+      <p>ADESJO améliore l'accès aux communautés les plus éloignées de la province et des zones environnantes en
+        utilisant des véhicules lourds et d'autres machines. Ce département soutient toutes les zones de l'institution
+        et fournit des services à tous les Conseils Communautaires conformément aux plans établis.</p>
 
-</div>
 
+    </div>
+  </section>
+  <script src="../js/main.js"></script>
 </body>
 <footer>
-  <br> <hr>
-  <div class="row justifier contour" style="background-color: #237318">
-    <div class="column" style="padding-top: 0">
-      <p class="centrer" style="padding-right: 15px">Tel. :<br> 809-558-2346 <br>  809-558-3059</p>
-    </div>
-    <div class="column" style="padding-top: 15px">
-      <p>Addresse: <br> Avenida Canadá 99, Esq. Sister María Asuncíon, Provincia de San José de Ocoa, República Dominicana</p>
-    </div>
-    <div class="column" style="padding-top: 15px">
-      <p>Email : <a class="contour" href="mailto:adesjo@claro.net.do">adesjo@claro.net.do</a></p>
+  <div id="section-footer" class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-lg-3">
+          <a href="Menu.html" style="padding: 0">
+            <img src="../../Img/ADESJO_LOGO-modified.png" alt="ADESJO Logo" width="50%">
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="footer-nav">
+            <a href="Histoire.html">Notre Histoire</a>
+            <a href="Equipe.html">Notre Équipe</a>
+            <a href="Departements.html">Départements</a>
+            <a href="Volontaires.html">Bénévoles</a>
+            <a href="Projets.html">Projets</a>
+            <a href="Donation.html">Faire un Don</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2 footer-contact">
+          Tel. : <br>
+          809-558-2346 <br>
+          809-558-3059 <br>
+          <a href="mailto:adesjo@claro.net.do">Email</a>
+        </div>
+        <div class="col-xs-12 col-lg-4 footer-address">
+          Addresse : <br>
+          Avenida Canadá 99, Esq. Sister María Asuncíon, <br> Provincia de San José de Ocoa, República Dominicana
+        </div>
+
+      </div>
     </div>
   </div>
+  </div>
 </footer>
+
 </html>
